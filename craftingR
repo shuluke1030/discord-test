@@ -1,0 +1,208 @@
+[
+    {
+        "bundle": "recoil_bundle",
+        "start": 1679248800,
+        "end": 1679335200,
+        "startDate": "2023-03-19 18:00:00",
+        "endDate": "2023-03-20 18:00:00",
+        "bundleType": "daily",
+        "bundleContent": [
+            {
+                "item": "bullets_mag_l3",
+                "cost": 35,
+                "itemType": {
+                    "name": "extended_light_mag",
+                    "rarity": "Epic",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/e50d6e0f6373649f15e95deb6e157816.png",
+                    "rarityHex": "#B200FF"
+                }
+            },
+            {
+                "item": "stock_tactical_l3",
+                "cost": 25,
+                "itemType": {
+                    "name": "standard_stock",
+                    "rarity": "Epic",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/efd911e9eed31e66c274ef51c8c895b7.png",
+                    "rarityHex": "#B200FF"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "equipment_bundle_2",
+        "start": 1679248800,
+        "end": 1679853600,
+        "startDate": "2023-03-19 18:00:00",
+        "endDate": "2023-03-26 18:00:00",
+        "bundleType": "weekly",
+        "bundleContent": [
+            {
+                "item": "backpack_pickup_lv3",
+                "cost": 75,
+                "itemType": {
+                    "name": "backpack",
+                    "rarity": "Epic",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/5a47e172428bc5ed5f50895e85f0a031.png",
+                    "rarityHex": "#B200FF"
+                }
+            },
+            {
+                "item": "helmet_pickup_lv3",
+                "cost": 30,
+                "itemType": {
+                    "name": "helmet",
+                    "rarity": "Epic",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/08122ea022170da97f0eb6181a36f61f.png",
+                    "rarityHex": "#B200FF"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "weapon_one",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "mp_weapon_dmr",
+                "cost": 30,
+                "itemType": {
+                    "name": "longbow",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/329f07e56a833cfb48d258fb6943eb3c.png",
+                    "rarityHex": "#808080"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "weapon_two",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "mp_weapon_volt",
+                "cost": 30,
+                "itemType": {
+                    "name": "volt",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/car_override.png",
+                    "rarityHex": "#808080"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "health_pickup",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "health_pickup_health_large",
+                "cost": 15,
+                "itemType": {
+                    "name": "med_kit",
+                    "rarity": "Rare",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/6fc0b73490114ec75a8e564179f3ab68.png",
+                    "rarityHex": "#0094FF"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "shield_pickup",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "health_pickup_combo_large",
+                "cost": 20,
+                "itemType": {
+                    "name": "large_shield_cell",
+                    "rarity": "Rare",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/30e855bb61c983f0407f4ad32a3dff58.png",
+                    "rarityHex": "#0094FF"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "ammo",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "bullet",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            },
+            {
+                "item": "special",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            },
+            {
+                "item": "shotgun",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            },
+            {
+                "item": "highcal",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            },
+            {
+                "item": "sniper",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            },
+            {
+                "item": "arrows",
+                "cost": 10,
+                "itemType": {
+                    "name": "ammo",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/0f8ac57cbf0db1163f77fcef09f9fb2c.png",
+                    "rarityHex": "#808080"
+                }
+            }
+        ]
+    },
+    {
+        "bundle": "evo",
+        "bundleType": "permanent",
+        "bundleContent": [
+            {
+                "item": "evo_points",
+                "cost": 50,
+                "itemType": {
+                    "name": "evo_armor",
+                    "rarity": "Common",
+                    "asset": "https://legion.apexlegendsstatus.com/cache/4445aea4337022d3694f5d3b07940a6b.png",
+                    "rarityHex": "#808080"
+                }
+            }
+        ]
+    }
+]

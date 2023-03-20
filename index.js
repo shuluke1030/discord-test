@@ -45,13 +45,16 @@ client.on('interactionCreate', async interaction => {
           "Storm Point": "風暴點",
         }
         const currentMap = translations[response.data.current.map];
+        const mapPng = response.data.current.asset;
         const nextMap = translations[response.data.next.map];
         const leftTime = response.data.current.remainingTimer;
+        
 
         console.log(`當前地圖是：${currentMap}`);
+        console.log(`${mapPng}`);
         console.log(`下一張地圖是：${nextMap}`);
         console.log(`剩餘時間：${leftTime}`);
-        interaction.reply(`當前地圖是：${currentMap}, 地圖更換剩餘：${leftTime}\n下一張地圖是：${nextMap}`);
+        interaction.reply(`當前地圖是：${currentMap}\n${mapPng}\n地圖更換剩餘：${leftTime}\n下一張地圖是：${nextMap}`);
       })
       .catch(function (error) {
         console.log(error);
@@ -70,16 +73,23 @@ client.on('interactionCreate', async interaction => {
 
     axios(config)
       .then(function (response) {
-          const translations = {
-          "shotgun_bolt": "槍栓",
-          "double_tap_trigger": "雙擊觸發器",
-        }
+        //   const translations = {
+        //   "shotgun_bolt": "槍栓",
+        //   "double_tap_trigger": "雙擊觸發器",
+        // }
           const items = [];
           for(let i = 0; i < response.data[0].bundleContent.length; i++){
-          items.push(translations[response.data[0].bundleContent[i].itemType.name]);
-        };
+          items.push(response.data[0].bundleContent[i].itemType.name);
+        }; 
+          const itemsPng = [];         
+          for(let i = 0; i < response.data[0].bundleContent.length; i++){
+            itemsPng.push(response.data[0].bundleContent[i].itemType.asset);
+          };
+          const itemUrls = itemsPng.join().split(',');
+          const replyMessage = itemUrls.join('\n');
         console.log(`當日合成物品：${items}`);
-        interaction.reply(`當日合成物品：${items}`);
+        console.log(`${replyMessage}`);
+        interaction.reply(`當日合成物品：${items}\n${replyMessage}`);
       })
       .catch(function (error) {
         console.log(error);

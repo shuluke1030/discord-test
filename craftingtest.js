@@ -13,6 +13,7 @@ axios(config)
 .then(function (response) {
   for(let i = 0; i < response.data[0].bundleContent.length; i++){
     console.log(JSON.stringify(response.data[0].bundleContent[i].itemType.name))
+    console.log(JSON.stringify(response.data[0].bundleContent[i].itemType.asset))
   };
 })
 .catch(function (error) {

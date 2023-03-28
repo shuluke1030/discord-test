@@ -18,6 +18,10 @@ const commands = [
     name: 'apexcrafting',
     description:'回應當前合成器內容',
   },
+  {
+    name: 'apexmixtape',
+    description:'回應混合模式地圖資訊',
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);

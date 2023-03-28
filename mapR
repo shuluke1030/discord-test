@@ -1,0 +1,141 @@
+{
+    "battle_royale": {
+        "current": {
+            "start": 1679994000,
+            "end": 1679999400,
+            "readableDate_start": "2023-03-28 09:00:00",
+            "readableDate_end": "2023-03-28 10:30:00",
+            "map": "Storm Point",
+            "code": "storm_point_rotation",
+            "DurationInSecs": 5400,
+            "DurationInMinutes": 90,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Storm_Point.png",
+            "remainingSecs": 4999,
+            "remainingMins": 83,
+            "remainingTimer": "01:23:19"
+        },
+        "next": {
+            "start": 1679999400,
+            "end": 1680004800,
+            "readableDate_start": "2023-03-28 10:30:00",
+            "readableDate_end": "2023-03-28 12:00:00",
+            "map": "Broken Moon",
+            "code": "broken_moon_rotation",
+            "DurationInSecs": 5400,
+            "DurationInMinutes": 90,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Broken_Moon.png"
+        }
+    },
+    "arenas": {
+        "current": {
+            "start": 1679994000,
+            "end": 1679994900,
+            "readableDate_start": "2023-03-28 09:00:00",
+            "readableDate_end": "2023-03-28 09:15:00",
+            "map": "Encore",
+            "code": "arenas_encore",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Arena_Encore.png",
+            "remainingSecs": 499,
+            "remainingMins": 8,
+            "remainingTimer": "00:08:19"
+        },
+        "next": {
+            "start": 1679994900,
+            "end": 1679995800,
+            "readableDate_start": "2023-03-28 09:15:00",
+            "readableDate_end": "2023-03-28 09:30:00",
+            "map": "Overflow",
+            "code": "arenas_overflow",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Arena_Overflow.png"
+        }
+    },
+    "ranked": {
+        "current": {
+            "start": 1679940000,
+            "end": 1680026400,
+            "readableDate_start": "2023-03-27 18:00:00",
+            "readableDate_end": "2023-03-28 18:00:00",
+            "map": "Broken Moon",
+            "code": "broken_moon_rotation",
+            "DurationInSecs": 86400,
+            "DurationInMinutes": 1440,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Broken_Moon.png",
+            "remainingSecs": 31999,
+            "remainingMins": 533,
+            "remainingTimer": "08:53:19"
+        },
+        "next": {
+            "start": 1680026400,
+            "end": 1680112800,
+            "readableDate_start": "2023-03-28 18:00:00",
+            "readableDate_end": "2023-03-29 18:00:00",
+            "map": "World's Edge",
+            "code": "worlds_edge_rotation",
+            "DurationInSecs": 86400,
+            "DurationInMinutes": 1440,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Worlds_Edge.png"
+        }
+    },
+    "arenasRanked": {
+        "current": {
+            "start": 1679994000,
+            "end": 1679994900,
+            "readableDate_start": "2023-03-28 09:00:00",
+            "readableDate_end": "2023-03-28 09:15:00",
+            "map": "Encore",
+            "code": "arenas_encore",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Arena_Encore.png",
+            "remainingSecs": 499,
+            "remainingMins": 8,
+            "remainingTimer": "00:08:19"
+        },
+        "next": {
+            "start": 1679994900,
+            "end": 1679995800,
+            "readableDate_start": "2023-03-28 09:15:00",
+            "readableDate_end": "2023-03-28 09:30:00",
+            "map": "Overflow",
+            "code": "arenas_overflow",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "asset": "https://apexlegendsstatus.com/assets/maps/Arena_Overflow.png"
+        }
+    },
+    "ltm": {
+        "current": {
+            "start": 1679994000,
+            "end": 1679994900,
+            "readableDate_start": "2023-03-28 09:00:00",
+            "readableDate_end": "2023-03-28 09:15:00",
+            "map": "Skulltown",
+            "code": "freedm_tdm_skulltown",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "isActive": true,
+            "eventName": "TDM",
+            "asset": "https://apexlegendsstatus.com/assets/maps/",
+            "remainingSecs": 499,
+            "remainingMins": 8,
+            "remainingTimer": "00:08:19"
+        },
+        "next": {
+            "start": 1679994900,
+            "end": 1679995800,
+            "readableDate_start": "2023-03-28 09:15:00",
+            "readableDate_end": "2023-03-28 09:30:00",
+            "map": "Wall",
+            "code": "freedm_gungame_wall",
+            "DurationInSecs": 900,
+            "DurationInMinutes": 15,
+            "isActive": true,
+            "eventName": "Gun Run",
+            "asset": "https://apexlegendsstatus.com/assets/maps/"
+        }
+    }
+}

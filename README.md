@@ -1,1 +1,3 @@
 "# discord-test" 
+repos更新完要記得重新佈署 node register....
+PowerShell>cd 專案路徑>fly launch

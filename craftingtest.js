@@ -1,5 +1,4 @@
 var axios = require('axios');
-
 var config = {
   method: 'get',
 maxBodyLength: Infinity,
@@ -16,6 +15,7 @@ axios(config)
     console.log(JSON.stringify(response.data[0].bundleContent[i].itemType.asset))
   };
 })
+
 .catch(function (error) {
   console.log(error);
 });

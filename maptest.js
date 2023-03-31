@@ -35,6 +35,7 @@ console.log(JSON.stringify(response.data.ltm.current.remainingTimer))
 console.log(JSON.stringify(response.data.ltm.current.eventName))
 console.log(JSON.stringify(response.data.ltm.next.map))
 console.log(JSON.stringify(response.data.ltm.next.eventName))
+console.log(JSON.stringify(response.data.ltm.current.asset))
 })
 .catch(function (error) {
   console.log(error);

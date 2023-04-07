@@ -1,0 +1,19 @@
+新增資料;
+// const newMovie = { title: '神隱少女', year: 2001, genre: '宮崎駿動畫' };
+// const result = await movies.insertOne(newMovie);
+// console.log(`Added ${result.insertedCount} new movie`);
+刪除資料;
+// const query = { title: "fight" };
+// const result = await movies.deleteOne(query);
+// console.log(`Deleted ${result.deletedCount} movie`);
+修改資料;
+// const filter = { title: '神隱少女' };
+// const update = { $set: { genre: '奇幻冒險' } };
+// const result = await movies.updateOne(filter, update);
+// console.log(`Updated ${result.modifiedCount} movie`);
+查詢資料;
+// const query = { title: 'The Godfather' };
+// const movie = await movies.findOne(query);
+// console.log(movie);
+使用連線字串;
+//proceess.env."MONGODB_CONNECTION" <<(連線字串)

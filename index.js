@@ -65,16 +65,9 @@ client.on("interactionCreate", async (interaction) => {
 
     axios(config)
       .then(function (response) {
-        const translations = {
-          "World's Edge": "世界邊緣",
-          "Broken Moon": "殘月",
-          "Kings Canyon": "王者峽谷",
-          Olympus: "奧林匹斯",
-          "Storm Point": "風暴點",
-        };
-        const currentMap = translations[response.data.current.map];
+        const currentMap = response.data.current.map;
         const mapPng = response.data.current.asset;
-        const nextMap = translations[response.data.next.map];
+        const nextMap = response.data.next.map;
         const leftTime = response.data.current.remainingTimer;
 
         console.log(`當前地圖是：${currentMap}`);
@@ -134,18 +127,18 @@ client.on("interactionCreate", async (interaction) => {
     axios(config)
       .then(function (response) {
         const ltmTranslations = {
-          Skulltown: "骷髏鎮",
-          TDM: "團隊死鬥",
-          Wall: "障壁",
+          'Skulltown': "骷髏鎮",
+          'TDM': "團隊死鬥",
+          'Wall': "障壁",
           "Gun Run": "快速直擊",
-          Siphon: "岩漿虹吸管",
+          'Siphon': "岩漿虹吸管",
           "Party Crasher": "不速之客",
-          Control: "控制",
-          Overflow: "氾濫",
-          Fragment: "破碎東方",
-          Barometer: "晴雨表",
-          Caustic: "腐蝕治療",
-          Habitat: "4號實驗室",
+          'Control': "控制",
+          'Overflow': "氾濫",
+          'Fragment': "破碎東方",
+          'Barometer': "晴雨表",
+          'Caustic': "腐蝕治療",
+          'Habitat': "4號實驗室",
         };
         const ltmCurrentMap = ltmTranslations[response.data.ltm.current.map];
         let ltmPic;

@@ -30,12 +30,10 @@ var config = {
 
 axios(config)
 .then(function (response) {
-console.log(JSON.stringify(response.data.ltm.current.map))
-console.log(JSON.stringify(response.data.ltm.current.remainingTimer))
-console.log(JSON.stringify(response.data.ltm.current.eventName))
-console.log(JSON.stringify(response.data.ltm.next.map))
-console.log(JSON.stringify(response.data.ltm.next.eventName))
-console.log(JSON.stringify(response.data.ltm.current.asset))
+console.log(JSON.stringify(response.data.ranked.current.map))
+console.log(JSON.stringify(response.data.ranked.current.remainingTimer))
+console.log(JSON.stringify(response.data.ranked.next.map))
+console.log(JSON.stringify(response.data.ranked.current.asset))
 })
 .catch(function (error) {
   console.log(error);

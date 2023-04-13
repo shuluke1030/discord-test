@@ -22,6 +22,10 @@ const commands = [
     name: 'apexmixtape',
     description:'回應混合模式地圖資訊',
   },
+  {
+    name: 'apexranked',
+    description:'回應積分當前地圖',
+  },
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);

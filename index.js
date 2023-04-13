@@ -1,11 +1,13 @@
 require("dotenv").config();
+var express = require('express');
+
+const app = express();
+const PORT = process.env.PORT || 8080;
 const {Client, GatewayIntentBits, time, AttachmentBuilder} = require("discord.js");
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 var axios = require("axios");
 const mergeImg = require("merge-img");
 const fs = require("fs");
-const app = express();
-const PORT = process.env.PORT || 8080;
 const { apexCrafting } = require("./apexcrafting");
 const { getMixTapeMap } = require("./apexmixtape");
 const { getRankedMap } = require("./apexrankmap");
